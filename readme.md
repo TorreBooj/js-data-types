@@ -1,5 +1,6 @@
 # Data Types, Variables, and Arrays
 
+<!--WDI5 9:25 -->
 <!--9:49 WDI4 -->
 <!--9:50 10 minutes -->
 
@@ -50,6 +51,7 @@ We'll elaborate on all of these - except Booleans - talk about how they differ i
 
 From the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction): "JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.... Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation."
 
+<!--9:33 WDI5 -->
 <!--ACtually 10:03-->
 <!--WDI4 9:55 -->
 <!--10:00 <10 minutes-->
@@ -177,6 +179,7 @@ Math.floor(3.9999)
 
 <!--Actually 10:13 -->
 <!--WDI4 -->
+<!--WDI5 9:43 -->
 <!--10:10 - 5 minutes -->
 
 #### Challenge
@@ -187,6 +190,7 @@ Try the following operations in your Chrome Developer tools:
 2. Show the square root of `123456`
 3. Show a random number between 0 and 20
 
+<!--9:46 WDI5 -->
 <!-- 10:15 5 minutes -->
 
 #### Strings
@@ -222,6 +226,8 @@ Strings have other [methods](https://developer.mozilla.org/en-US/docs/Web/JavaSc
 "hello".toUpperCase();
 => "HELLO"
 ```
+
+<!--WDI5 9:5 -->
 
 Types of values like `Number` or `String` are not very useful without being able to form **Expressions** or **Combinations**.
 
@@ -284,6 +290,7 @@ parseFloat("1" + Math.PI);
 
 ```
 
+<!--WDI5 10:0  -->
 <!--Actually 10:30-->
 <!--10:20 5 minutes -->
 
@@ -323,6 +330,7 @@ JavaScript distinguishes between:
 
 <!-- CFU: Show-of-hands: which will you see more: null / undefined -->
 
+<!--10:05 WDI5 -->
 <!--10:25 5 minutes -->
 
 ## Variables and Keywords - Demo
@@ -377,6 +385,8 @@ You can use `++` and `--` to increment and decrement, respectively.
 
 In Javascript we just discussed two types of values we can use. We call these values objects, which for now just means that in addition to storing some data you also get to use some helpful methods when you are working with them.
 
+<!--WDI5 10:13 -->
+
 * If you want to turn a number into a string you can use a helpful method called `toString`.
 
 ```javascript
@@ -385,8 +395,6 @@ In Javascript we just discussed two types of values we can use. We call these va
 ```
 
 <!-- CFU And who remembers how to convert strings to numbers? -->
-
-<!-- CFU Fist-to-five "How do we feel about Strings?  Numbers?  Their methods? -->
 
 <!--ACtually 10:40 -->
 <!-- 10:30 5 minutes -->
@@ -494,6 +502,7 @@ Try the following operations in your Chrome Developer tools:
 4. Remove the last element from the array.
 5. Show the contents of the array.
 
+<!--WDI5 10:26 -->
 <!--11:01 WDI4 -->
 <!--10:45 5 minutes -->
 
@@ -545,6 +554,7 @@ Here are some other iterator methods for you to research and practice with:
 - `Array.map()`
 
 <!--Actually 10:54 -->
+<!--WDI5 10:33 turning over to devs-->
 <!--11:07 WDI4 -->
 <!--10:50 20 minutes -->
 
@@ -554,6 +564,7 @@ Here are some other iterator methods for you to research and practice with:
 
 Take a look at the [starter-code](starter-code) and work through each exercise using the comments provided to console log the correct information.  
 
+<!--WDI5 coming back 10:52 -->
 <!--Actually 11:13, skipped conclusion and just went through objectives-->
 <!--11:10 5 minutes -->
 <!--11:27 WDI4 after objectives run-through -->
@@ -562,6 +573,8 @@ Take a look at the [starter-code](starter-code) and work through each exercise u
 
 - Describe use cases of different "data types".
 - Why is iterating important when working with stored data?
+
+<!--WDI5 10:56 -->
 
 Feel free to read more from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) about JavaScript fundamentals.
 
