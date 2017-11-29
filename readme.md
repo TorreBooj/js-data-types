@@ -34,7 +34,10 @@
 From [Wikipedia](https://en.wikipedia.org/wiki/Data_type):
 
 
-_In computer science and computer programming, a data type is a classification identifying one of various types of data that determines: the possible values for that type, the operations that can be done on values of that type, the meaning of the data and the way values of that type can be stored._
+In computer science and computer programming, a data type is a classification identifying one of various types of data that determines: 
+* the possible values for that type 
+* the operations that can be done on values of that type 
+* the meaning of the data and the way values of that type can be stored.
 
 Data types are really similar across many different languages:
 
