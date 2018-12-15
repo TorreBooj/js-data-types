@@ -5,9 +5,9 @@
 <!--9:50 10 minutes -->
 
 <!-- HOOK
-  - So one of the big jobs of a computer is to be a calculator.  So let's say I want to get my computer to multiply two big numbers like 24 and 24 together.  How could I do that?
+  - So one of the big jobs of a computer is to be a calculator. Let's say I want to get my computer to multiply two big numbers like 24 and 24 together. How could I do that?
   - Now how about 32 and 32?
-  - What are we doing here?  (Squaring) So this is where variables come in.  Instead of writing all these numbers over and over again, the computer can save us time with: var side = 32; side*side;
+  - What are we doing here? Answer: squaring. This is where variables come in. Instead of writing all these numbers over and over again, the computer can save us time with: var side = 32; side * side;
   - What if I want to make a cube?
 -->
 
@@ -65,11 +65,11 @@ From the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/We
 
 <!--We will cover dev tools in more detail later -->
 
-For this lesson, we're going to use the Chrome Developer Tools Console shell.  Open a Chrome window and type `cmd+alt+j` to open the console.
+For this lesson, we're going to use the Chrome Developer Tools Console shell. Open a Chrome window and type `cmd+alt+i` or `cmd+alt+j` to open the console.
 
 #### typeof()
 
-To get an idea of the type of data we're working with, we can use [`typeof()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof).  Let's try it out in the console with the following:
+To get an idea of the type of data we're working with, we can use [`typeof()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof). Let's try it out in the console with the following:
 
 ```javascript
 typeof(37) === 'number';
@@ -85,7 +85,7 @@ typeof('hi there') === 'string';
 
 <!--Half-mast -->
 
-`typeof()` returns a string with the type of the operand, or expression of the object you're looking at.  
+`typeof()` returns a string string indicating the type of the unevaluated operand.
 
 <!--
 [CFU]: Show of fingers for number, pull out string for string, hold up laptops for object...what type is...
@@ -113,14 +113,14 @@ In more low-level languages, numbers are divided into two classes or objects:
    2.718, 3.14, .5, .25, etc
   ```
 
-All numbers in JavaScript are **"double-precision 64-bit format IEEE 754 values"** - read this as "There's really no such thing as an integer in JavaScript."
+All numbers in JavaScript are **double-precision 64-bit format IEEE 754 values**. Read this as, "There's really no such thing as an integer in JavaScript."
 
-In JavaScript, these data points are the same **type** of object, which it calls *Numbers*, so if you know floats and integers do not go looking for them.
+In JavaScript, integers and floats are the same **type** of object, which it calls *Numbers*.
 
 
 #### Arithmetic Operators
 
-Operators are used to work with data in JavaScript. The standard [arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#Arithmetic_operators) - that you've been learning since grade school - are supported, including addition, subtraction, modulus (or remainder), and so forth.  Check it out:
+Operators are used to work with data in JavaScript. The standard [arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#Arithmetic_operators), which you've been learning since grade school, are supported, including addition, subtraction, modulus (or remainder), and so forth. Check it out:
 
 ```javascript
 1 + 2
@@ -140,8 +140,8 @@ Operators are used to work with data in JavaScript. The standard [arithmetic ope
 
 JavaScript can be a little cheap with the number of operations it allows you to do. For example, how is someone supposed to square a number or cube a number easily? Luckily there is a special `Math` object with some very useful methods.
 
-* Taking a number to some `power`? Then just use `Math.pow`
-
+* Taking a number to some `power`? Then just use `Math.pow`:
+<!-- Math.pow( base, exponent ) -->
 ```javascript
 // 3^2 becomes
 Math.pow(3,2)
@@ -167,7 +167,7 @@ Math.random()
   The following will return a
   random number between 0 and 10
 */
-Math.random()*10
+Math.random() * 10
 ```
 
 * Since Numbers can be **Floats** or **Integers** we often want to get rid of remaining decimal places, which can be done using `Math.floor`.
@@ -215,7 +215,7 @@ To find the length of a string, access its [`length`](https://developer.mozilla.
 => 5
 ```
 
-There's our first brush with JavaScript objects! Did I mention that you can use strings like objects, too?
+There's our first brush with JavaScript objects! You can use strings like objects, too.
 
 Strings have other [methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods) as well that allow you to manipulate the string and access information about the string:
 
