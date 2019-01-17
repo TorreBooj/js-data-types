@@ -1,8 +1,13 @@
 /**
  * Arrays
- * Most of your answers should be stored in variables called q1, q2 etc.. and the variables printed to the console.
+ * Most of your answers should be stored in variables called q1, q2, etc., and the variables printed to the console.
+    the console. For example:
 
-    (i.e) console.log("Question 1" + q1)
+    var names = ["Peter", "Brian", "Chris", "Stewie"];
+    console.log(names);
+
+    So, first, you declare a variable, such as "names". Then you print that variable 
+    with console.log() with the variable name in the parentheses.
  */
 
 /**
@@ -28,9 +33,9 @@
 
 /**
  * Question 4
- *  Using the array from Question 1, store the last element of the array in variable q4. Hint: How can we get the number of elements in the array?
+ *  Using the array from Question 1, store the last element of the array in variable q4. 
+    Hint: How can we get the number of elements in the array?
  */
-
 
 // Your code here
 
@@ -39,9 +44,7 @@
 
 /**
  * Arrays + Iteration
- * Most of your answers should be stored in variables called q1, q2 etc.. and the variables printed to the console.
-
-    (i.e) console.log("Question 1" + q1)
+ * Again, store your answers in variables and console.log() each variable after you declare it.
  */
 
 /**
@@ -52,11 +55,11 @@ The end result should be an array of numbers with values 2,3,4,5
 
 // Your code here
 
-
 /**
  * Question 2
- * Using the array from Question 1, find the average of the numbers in the array (average=sum of all numbers/number of numbers). Store the average in q2.
+ * Using the array from Question 1, find the average of the numbers in the array 
+   ("average" meaning the sum of all numbers divided by the amount of numbers). 
+   Store the average in q2.
  */
-
 
 // Your code here
