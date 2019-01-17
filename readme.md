@@ -104,7 +104,7 @@ In more low-level languages, numbers are divided into two classes or objects:
 * Integers
 
   ```javascript
-   ..., -1,0, 1, 2, 3, 4, 5, ...
+   ..., -1, 0, 1, 2, 3, 4, 5, ...
   ```
 
 * Floats (or Decimal numbers)
@@ -411,7 +411,7 @@ What is needed are collections of data that we can use efficiently, like **Array
 Arrays are great for:
 
 * Storing data
-* Enumerating data, i.e. using an index to find them
+* Enumerating data, i.e., using an index to find them
 * Quickly reordering data
 
 Arrays, ultimately, are a data structure that is similar in concept to a list. Each item in an array is called an element, and the collection can contain data of the same or different types. In JavaScript, they can dynamically grow and shrink in size.
@@ -436,7 +436,7 @@ var lastFriend = friends[2]
 <!-- 10:35 5 minutes -->
 ## Working with Arrays - Demo
 
-Javascript arrays are usually created with an array literal:
+JavaScript arrays are usually created with an array literal:
 
 ```javascript
 var a = ["dog", "cat", "hen"];
@@ -450,7 +450,7 @@ a.length;
 
 #### Length method
 
-The `length` method works in an interesting way in Javascript. It is always one more than the highest index in the array.
+The `length` method works in an interesting way in JavaScript. It is always one more than the highest index in the array.
 
 So `array.length` isn't necessarily the number of items in the array. Consider the following:
 
@@ -490,7 +490,7 @@ Arrays come with a number of methods. Here's a list of some popular helpers:
 
 - `a.unshift([item])` - Prepends items to the start of the array.
 
-Remember, though, you'll never remember _every_ method.  Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for different objects (like Math, Date, String, et c).
+Remember, though, you'll never remember _every_ method.  Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for different objects (like Math, Date, String, etc.).
 
 <!--Actually 10:45 -->
 <!--10:40 5 minutes -->
@@ -499,7 +499,7 @@ Remember, though, you'll never remember _every_ method.  Explore the the [full d
 
 Try the following operations in your Chrome Developer tools:
 
-1. Create an array with the strings "Rick", "Morty", and "Jerry" inside.  Save this array as a variable.
+1. Create an array with the strings "Rick", "Morty", and "Jerry" inside. Save this array as a variable.
 2. Show how many elements are inside the array.
 3. Reverse the array.
 4. Remove the last element from the array.
@@ -574,7 +574,7 @@ Take a look at the [starter-code](starter-code) and work through each exercise u
 
 ## Conclusion
 
-- Describe use cases of different "data types".
+- Describe use cases of different "data types."
 - Why is iterating important when working with stored data?
 
 <!--WDI5 10:56 -->
