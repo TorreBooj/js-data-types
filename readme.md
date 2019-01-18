@@ -331,6 +331,8 @@ JavaScript distinguishes between:
 - `null` a value that indicates a deliberate non-value
 - `undefined` indicates an uninitialized value — that is, a value that hasn't even been assigned yet
 
+For Further Reading: [JavaScript — Null vs. Undefined](https://codeburst.io/javascript-null-vs-undefined-20f955215a2)
+
 <!-- CFU: Show-of-hands: which will you see more: null / undefined -->
 
 <!--10:05 WDI5 -->
