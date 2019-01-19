@@ -546,7 +546,6 @@ Bruins
 Broncos
 Ravens
 Ducks
-undefined
 ```
 
 Notice how much cleaner this syntax is than that of the `for` loop?
