@@ -44,8 +44,7 @@ Data types are really similar across many different languages:
 | Data Type | Description | Example |
 | --- | --- | --- |
 | Strings | Single words or sentences, surrounded by double or single quotes | `"lots of kittens"`, `'lots of kittens'` |
-| Integers | Whole numbers, with no delimiter. Can optionally have underscores to make large numbers easier to read | `42`, `1024`, `1\_000\_000` |
-| Floats | Decimals, with no delimiter | `3.14`, `3.0` |
+| Numbers | Includes both whole numbers (with no delimiter) and decimals (with no delimiter). Can optionally have underscores to make large numbers easier to read | `42`, `1024`, `1\_000\_000`, `3.14`, `3.0` |
 | Booleans | A binary data type representing true or false | `true`, `false` |
 
 We'll elaborate on all of these - except Booleans - talk about how they differ in JavaScript, show you some built-in methods for each type and then give you time to practice some of the methods to manipulate data.
